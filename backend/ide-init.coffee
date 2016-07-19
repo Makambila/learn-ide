@@ -100,7 +100,7 @@ window.learnSignIn = ->
       win.destroy()
       githubLogin()
 
-  if not win.loadUrl('https://learn.co/ide/sign_in?ide_onboard=true,ignore_rollout=true')
+  if not win.loadUrl('https://learn.co/ide/sign_in?ide_onboard=true&ignore_rollout=true')
     win.destroy()
     githubLogin()
 
